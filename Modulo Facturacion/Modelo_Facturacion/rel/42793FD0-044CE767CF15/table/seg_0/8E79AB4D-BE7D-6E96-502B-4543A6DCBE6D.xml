@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E79AB4D-BE7D-6E96-502B-4543A6DCBE6D" name="Vendedor">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>AF8E6BF4-5BC4-324C-6310-09576CE6313B</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nit" id="598B5FC9-D4A1-6FCB-6BA8-D622554EEA95">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>F4E3B4AB-AFFC-B68A-E634-90B45907EDC0</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="ED6E4B24-6809-C233-CB98-079001880AED">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>3D1CA1DF-990A-B5F3-DEAE-6CC774D6BA8B</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="144C415F-14EA-084C-E00B-45D6D569C045">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>CE6AC1F5-0B57-D127-5450-09C0CD3A8BCA</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="AD4AFE90-1FB2-F5F0-856B-CC50576C4EF7">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>F6317623-854D-4848-602E-6927FCD3427F</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4925E673-78E7-81F0-E725-CEF584B2B65A" name="Vendedor_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>BB3490B1-FC7F-E308-2B3C-ED74C79AD8B8</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="598B5FC9-D4A1-6FCB-6BA8-D622554EEA95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vendedor_Prefactura" directorySegmentName="seg_0" id="DD376F18-05C0-B8EF-190E-5569AE9CBCAC">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:03:03 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<sourcePk>BB3490B1-FC7F-E308-2B3C-ED74C79AD8B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF8E6BF4-5BC4-324C-6310-09576CE6313B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C003E8C9-2DB8-5D21-7847-15EAEDE7F964</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

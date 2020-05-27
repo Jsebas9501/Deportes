@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C196DB2-616D-590A-FE92-01CD9D2C25EE" name="Estudiante">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>EAA6E830-412B-96BD-3DF6-E12DA33865B7</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_estudiante" id="C76111DA-EE59-E1BD-CBC0-4AEC70CED7AC">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>445C8743-AA2C-29EB-FDCA-4060631986C6</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="8CF93E54-1B4A-EE70-4CAF-71637DC527EF">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>276ECA5C-531E-F455-44F8-E41329420B9A</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="6CD901A2-F1F4-DF42-02CA-176A099D28FB">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>D4B7EEE0-946C-B759-8903-3B089550A209</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nacimiento" id="501DCADD-EE97-7940-6FE9-5D08055AD1D3">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>E65C6F23-FAF4-0875-A641-875826F41CC4</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D2888CB-49FB-9471-F192-DFEDDB6C1D6C" name="Estudiante_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>292FD561-FD4F-89C2-A2E9-02CD663D77F1</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C76111DA-EE59-E1BD-CBC0-4AEC70CED7AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

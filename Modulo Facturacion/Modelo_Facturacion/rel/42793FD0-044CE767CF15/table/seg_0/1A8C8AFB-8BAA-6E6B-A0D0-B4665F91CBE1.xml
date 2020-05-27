@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A8C8AFB-8BAA-6E6B-A0D0-B4665F91CBE1" name="Factura">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>F1178206-9B37-DF62-5E2D-064C355C37C2</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Num_factura" id="6A4B403F-F177-A130-AF37-BE9B3A3ACBFF">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>EEC6AB99-498D-BAB0-BED0-25C3D1E05547</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="59C95A81-FF8D-2F8C-3E1D-28E744CCA93E">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>D5EDA560-0F23-3166-3DCD-FE494237367A</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prefactura_Num_prefactura" id="0BEE9156-9435-CA16-0002-7B3DB63E9EA6">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>1BCC473E-FAFC-12D5-7986-676534D93028</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D1D29EB-23FF-CD68-959A-F5C7CC0F9464" referredColumn="76A0629F-B16F-E262-808C-CCAC521BD8BF"/>
+</associations>
+</Column>
+<Column name="Num_prefactura" id="CA0F4D64-4E34-09BD-EEDC-E1768DA1F01C">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<generatorID>960EA82F-598E-A077-9BD9-F3733EBD8B20</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tutor_Id_tutor" id="2C57622E-1B10-D9EA-CBF6-24596336E495">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<generatorID>B9EBCB08-9AF8-FE1C-982C-CD6D7B35FB41</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C525850C-2751-5427-8FB8-3BAB0548DA7F" referredColumn="BFFAD7C9-4292-E6D9-BBBD-A0BEF0B5D267"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E2D4C8C-223E-58DB-15B4-399CD023531E" name="Factura_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>FF4BBEC2-FD8A-34EB-399A-96C90D2E8B50</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A4B403F-F177-A130-AF37-BE9B3A3ACBFF"/>
+<colUsage columnID="CA0F4D64-4E34-09BD-EEDC-E1768DA1F01C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A228D70-F1EA-A0D2-568D-C0EF65BF4269" name="Factura__IDX">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B45392C8-A323-7B7B-5542-996360D6E323</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0BEE9156-9435-CA16-0002-7B3DB63E9EA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB991464-DB20-E999-06E1-8C75E9153BC7" name="Factura_Prefactura_FK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 19:29:38 UTC</createdTime>
+<generatorID>B45392C8-A323-7B7B-5542-996360D6E323</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BEE9156-9435-CA16-0002-7B3DB63E9EA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F28F06-2443-7B35-CEED-C97AF0B1D3C4" name="Factura_Tutor_FK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<generatorID>FA5EEE26-936A-5551-1996-4281C0FC5F5C</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C57622E-1B10-D9EA-CBF6-24596336E495"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

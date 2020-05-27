@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Estudiante_tutor" directorySegmentName="seg_0" id="D26E992B-031F-2A4A-2338-39EEA41DEC47">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:56:58 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C11DED04-FE4B-050C-E34C-EEBE14D50087</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAA6E830-412B-96BD-3DF6-E12DA33865B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

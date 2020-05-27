@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C11DED04-FE4B-050C-E34C-EEBE14D50087" name="Tutor">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:31:32 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_tutor" id="C021480B-2419-C536-9EC3-90302254777E">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:31:50 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F4A6CD7A-80E5-0A1A-FB4A-E79632B00CA5">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:35:24 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="19FAA167-3396-F7B7-BA15-E66F0667C396">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:35:48 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="887C0182-8FC0-FE4B-4B6C-28D39EF3B6E2">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:36:06 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Celular" id="15DB2101-5E64-4CBD-230D-66CC58170D9A">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:36:33 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="DB30FD46-1677-4842-0D3F-1882412B8515">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:36:46 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="2F9E3A77-A171-7F60-7D80-ADEC4DC8F5EC">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:37:41 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D7C7503-895D-7FCF-9589-00256582DB96" name="Tutor PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:31:56 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C021480B-2419-C536-9EC3-90302254777E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Facturacion" id="1D7CA04B-40C5-69F6-FC68-D65F1B57ED31" version="3.5">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 18:30:46 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1D7CA04B-40C5-69F6-FC68-D65F1B57ED31</designId>
+</OSDM_Design>

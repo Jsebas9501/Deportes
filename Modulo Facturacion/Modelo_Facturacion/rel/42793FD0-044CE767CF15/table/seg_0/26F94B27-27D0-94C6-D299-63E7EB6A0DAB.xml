@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26F94B27-27D0-94C6-D299-63E7EB6A0DAB" name="Factura_servicios">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Factura_Num_factura" id="13C020DF-F39D-40FD-4231-0E44CAF8EF0B">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67B16226-7EF1-EEC1-3F54-7DF261B82A47" referredColumn="6A4B403F-F177-A130-AF37-BE9B3A3ACBFF"/>
+</associations>
+</Column>
+<Column name="Factura_Num_prefactura" id="461227F2-B047-0A68-4BEF-C1E647338D64">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67B16226-7EF1-EEC1-3F54-7DF261B82A47" referredColumn="CA0F4D64-4E34-09BD-EEDC-E1768DA1F01C"/>
+</associations>
+</Column>
+<Column name="Servicio_Codigo_servicio" id="048CA315-06E6-12BA-9377-196461423F90">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F37F1341-E99B-5845-534D-17D11A0A438D" referredColumn="6C8EE5E3-11E8-FE6C-25E5-974B6FCC2620"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF29AE51-3E63-9834-DEEF-94461F009F89" name="Factura_servicios_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13C020DF-F39D-40FD-4231-0E44CAF8EF0B"/>
+<colUsage columnID="461227F2-B047-0A68-4BEF-C1E647338D64"/>
+<colUsage columnID="048CA315-06E6-12BA-9377-196461423F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="873A9885-E94C-EADE-8A23-4DACDAA19249" name="Factura_servicios_FK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<generatorID>93B872B9-25FD-DEFD-892F-D100D9BC4AB9</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13C020DF-F39D-40FD-4231-0E44CAF8EF0B"/>
+<colUsage columnID="461227F2-B047-0A68-4BEF-C1E647338D64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="626554BB-A2D7-7617-A244-CBB22582E6BC" name="Factura_servicios_FKv1">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:23:00 UTC</createdTime>
+<generatorID>93B872B9-25FD-DEFD-892F-D100D9BC4AB9</generatorID>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="048CA315-06E6-12BA-9377-196461423F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tutor_factura" directorySegmentName="seg_0" id="FA5EEE26-936A-5551-1996-4281C0FC5F5C">
+<createdBy>Sebastian</createdBy>
+<createdTime>2020-05-27 22:11:45 UTC</createdTime>
+<ownerDesignName>Modelo_Facturacion</ownerDesignName>
+<engineerTo>
+<item key="42793FD0-6DDB-D2C3-2077-044CE767CF15" value="true"/>
+</engineerTo>
+<sourcePk>8D7C7503-895D-7FCF-9589-00256582DB96</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C11DED04-FE4B-050C-E34C-EEBE14D50087</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F1178206-9B37-DF62-5E2D-064C355C37C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
